@@ -1,0 +1,14 @@
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\bin\Debug\net7.0\Projeto .NET.exe
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\bin\Debug\net7.0\Projeto .NET.deps.json
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\bin\Debug\net7.0\Projeto .NET.runtimeconfig.json
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\bin\Debug\net7.0\Projeto .NET.dll
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\bin\Debug\net7.0\Projeto .NET.pdb
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.AssemblyInfoInputs.cache
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.AssemblyInfo.cs
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.csproj.CoreCompileInputs.cache
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.dll
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\refint\Projeto .NET.dll
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.pdb
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\Projeto .NET.genruntimeconfig.cache
+C:\Users\marci\OneDrive\Documentos\Workspace.VSCode\Projeto .NET\obj\Debug\net7.0\ref\Projeto .NET.dll
