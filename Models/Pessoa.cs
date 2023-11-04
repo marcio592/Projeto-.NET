@@ -11,13 +11,15 @@ namespace Projeto_.NET.Models
         private int idade;
         private double altura;
         private decimal salario;
+        private int cpf;
 
-        public Pessoa(String nome, int idade , double altura, decimal salario)
+        public Pessoa(String nome, int idade , double altura, decimal salario, int cpf)
         {
             this.nome=nome;
             this.idade=idade;
             this.altura=altura;
             this.salario=salario;
+            this.cpf=cpf;
 
 
         }
@@ -47,6 +49,12 @@ namespace Projeto_.NET.Models
         }
         public decimal setSalario{
             set{salario=value;}
+        }
+        public int getCpf{
+            get{return cpf;}
+        }
+        public int setCpf{
+            set{cpf=value;}
         }
 
         
