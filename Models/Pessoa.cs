@@ -14,7 +14,7 @@ namespace Projeto_.NET.Models
         private int cpf;
 
         public Pessoa(String nome, int idade , double altura, decimal salario, int cpf)
-        {
+        {        //Utilizando POO
             this.nome=nome;
             this.idade=idade;
             this.altura=altura;
