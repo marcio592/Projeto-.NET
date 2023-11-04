@@ -3,7 +3,7 @@
 //criação do objeto pessoa
 Pessoa pessoa = new Pessoa("", 0, 0, 0);
 
-DateTime dataHoraAtual = DateTime.Now;
+DateTime dataHoraAtual = DateTime.Now.AddDays(5);
 
 pessoa.setNome="João";
 pessoa.setIdade=28;
