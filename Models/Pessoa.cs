@@ -9,11 +9,15 @@ namespace Projeto_.NET.Models
     {
         private String nome;
         private int idade;
+        private double altura;
+        private decimal salario;
 
-        public Pessoa(String nome, int idade)
+        public Pessoa(String nome, int idade , double altura, decimal salario)
         {
             this.nome=nome;
             this.idade=idade;
+            this.altura=altura;
+            this.salario=salario;
 
 
         }
@@ -31,6 +35,18 @@ namespace Projeto_.NET.Models
         }
         public int setIdade{
             set{idade=value;}
+        }
+        public double getAltura{
+            get{return altura;}
+        }
+        public double setAltura{
+            set{altura=value;}
+        }
+        public decimal getSalario{
+            get{return salario;}
+        }
+        public decimal setSalario{
+            set{salario=value;}
         }
 
         
