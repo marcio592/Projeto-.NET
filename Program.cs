@@ -1,5 +1,5 @@
 ﻿using Projeto_.NET.Models;
-
+/*
 //criação do objeto pessoa
 Pessoa pessoa = new Pessoa("", 0, 0, 0, 0, "");
 
@@ -18,5 +18,19 @@ Console.WriteLine($"minha altura é {pessoa.getAltura.ToString("0.00")} cm. Meu 
 Console.WriteLine($"Data e hora do output: {dataHoraAtual}");
 Console.WriteLine($"CPF:{pessoa.getCpf}");
 Console.WriteLine($"Cep:{pessoa.getCep}");
+*/
+
+Produto produto = new Produto("", 0, 0, 
+        0, 0);
+
+        produto.setNomeProduto="Livro";
+        produto.setQuantidadeProduto=10;
+        produto.setValorUnitario=20.00m;
+        produto.setQuantidadePedido=7;
+
+
+        produto.comprar();
+        
+
 
 
