@@ -26,7 +26,7 @@ Produto produto = new Produto("", 0, 0,
         produto.setNomeProduto="Livro";
         produto.setQuantidadeProduto=10;
         produto.setValorUnitario=20.00m;
-        produto.setQuantidadePedido=7;
+        produto.setQuantidadePedido=0;
 
 
         produto.comprar();

@@ -61,7 +61,7 @@ namespace Projeto_.NET.Models
 
         public void  comprar(){
 
-            if(quantidadePedido <= quantidadeProduto){
+            if(quantidadePedido <= quantidadeProduto & quantidadePedido != 0){
                 valorCompra = valorUnitario * quantidadePedido;
                 Console.WriteLine($"Produto:{nomeProduto}");
                 Console.WriteLine($"Quantidade em estoque:{quantidadeProduto}");
@@ -69,6 +69,10 @@ namespace Projeto_.NET.Models
                 Console.WriteLine($"Quantidade do produto no pedido:{quantidadePedido}");
                 Console.WriteLine($"Valor total da compra:{valorCompra}");
                 
+            }else if(quantidadePedido == 0){
+                Console.WriteLine($"A quantidade do produto no pedido não pode ser igual a 0");
+
+
             }else{
                 Console.WriteLine($"Estoque insuficiente para a compra");
             }
