@@ -19,7 +19,7 @@ Console.WriteLine($"Data e hora do output: {dataHoraAtual}");
 Console.WriteLine($"CPF:{pessoa.getCpf}");
 Console.WriteLine($"Cep:{pessoa.getCep}");
 */
-
+/*
 Produto produto = new Produto("", 0, 0, 
         0, 0);
 
@@ -31,6 +31,26 @@ Produto produto = new Produto("", 0, 0,
 
         produto.comprar();
         
+
+*/
+
+Console.WriteLine("Digite uma vogal:");
+string letra = Console.ReadLine();
+
+switch(letra){
+        case "a":
+        case "e":
+        case "i":
+        case "o":
+        case "u":
+        Console.WriteLine("Vogal");
+        break;
+
+        default:
+        Console.WriteLine("Consoante");
+        break;
+
+}
 
 
 
