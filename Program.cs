@@ -99,7 +99,7 @@ else if(discente.getMedia < 7.00 && discente.getFrequencia < 75){
 }
 
 else{
-        if(discente.getMedia <= 7.00){
+        if(discente.getMedia < 7.00){
 
         Console.WriteLine($"Discente:{discente.getNome}");
         Console.WriteLine($"Curso:{discente.getCurso}");
@@ -108,7 +108,7 @@ else{
         Console.WriteLine($"Avaliação2:{discente.getNota2}");
         Console.WriteLine($"Frequência:{discente.getFrequencia}%");
         Console.WriteLine($"REPROVADO MÉDIA:{discente.getMedia}");
-        }else{
+        }else if(discente.getFrequencia < 75){
         Console.WriteLine($"Discente:{discente.getNome}");
         Console.WriteLine($"Curso:{discente.getCurso}");
         Console.WriteLine($"Matrícula:{discente.getMatricula}");
