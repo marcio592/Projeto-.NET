@@ -112,7 +112,7 @@ else if(discente.getMedia <= 7.00 || discente.getFrequencia < 75){
         Console.WriteLine($"Discente:{discente.getNome}");
         Console.WriteLine($"Curso:{discente.getCurso}");
         Console.WriteLine($"Matrícula:{discente.getMatricula}");
-        Console.WriteLine($"Avalisação1:{discente.getNota1}");
+        Console.WriteLine($"Avaliação1:{discente.getNota1}");
         Console.WriteLine($"Avaliação2:{discente.getNota2}");
         Console.WriteLine($"Média:{discente.getMedia}");
         Console.WriteLine($"REPROVADO FREQUÊNCIA:{discente.getFrequencia}%");
