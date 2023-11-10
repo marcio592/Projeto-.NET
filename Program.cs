@@ -135,13 +135,22 @@ if(!choveu && !estarTarde){
 }
 */
 
-ExemploCalculadora calculadora =  new ExemploCalculadora(0, 0, 0);
+ExemploCalculadora calculadora =  new ExemploCalculadora(0, 0, 0, 0);
 
 calculadora.setValor1=3.00;
 calculadora.setValor2=3.00;
 
+calculadora.setAngulo=30;
+
 calculadora.potencia();
 
-Console.WriteLine(calculadora.getResultado);
+Console.WriteLine($"Potência: {calculadora.getResultado}");
+
+calculadora.seno();
+calculadora.coseno();
+calculadora.tangente();
+calculadora.raizQuadrada();
+
+
 
 

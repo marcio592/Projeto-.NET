@@ -11,12 +11,14 @@ namespace Projeto_.NET.Models
         private double valor1;
         private double valor2;
         private double resultado;
+        private double angulo;
 
-        public ExemploCalculadora(double valor1, double valor2, double resultado){
+        public ExemploCalculadora(double valor1, double valor2, double resultado, double angulo){
 
             this.valor1=valor1;
             this.valor2=valor2;
             this.resultado=resultado;
+            this.angulo=angulo;
 
         }
         public double getValor1{
@@ -37,6 +39,12 @@ namespace Projeto_.NET.Models
         public double setResultado{
             set{resultado=value;}
         }
+        public double getAngulo{
+            get{return angulo;}
+        }
+        public double setAngulo{
+            set{angulo=value;}
+        }
 
         public void somar(){
             resultado = valor1 + valor2;
@@ -55,6 +63,27 @@ namespace Projeto_.NET.Models
         }
         public void potencia(){
             resultado = Math.Pow(valor1, valor2);
+        }
+        public void seno(){
+            double radiano = angulo * Math.PI / 180;
+            resultado = Math.Sin(radiano);
+            
+            Console.WriteLine($"Seno:{Math.Round(resultado, 4)}");
+
+        }
+        public void coseno(){
+            double radiano = angulo * Math.PI / 180;
+            resultado = Math.Cos(radiano);
+            Console.WriteLine($"Coseno:{Math.Round(resultado, 4)}");
+        }
+        public void tangente(){
+            double radiano = angulo * Math.PI / 180;
+            resultado = Math.Tan(radiano);
+            Console.WriteLine($"Tangente:{Math.Round(resultado, 4)}");
+        }
+        public void raizQuadrada(){
+            resultado = Math.Sqrt(valor1);
+            Console.WriteLine($"Raiz quadrada de {valor1}: {resultado}");
         }
 
 
