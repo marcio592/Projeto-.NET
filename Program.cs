@@ -67,6 +67,8 @@ if(maiorDeIdade || autorizacaoDoResponsavel ){
 
 */
 
+/*
+
 Discente discente = new Discente("", "", 0, 0, 0, 0, 0);
 
 discente.setNome="Tiago";
@@ -119,5 +121,27 @@ else{
         }
         }
 
+*/
+
+/*
+bool choveu=true;
+bool estarTarde=true;
+
+if(!choveu && !estarTarde){
+        Console.WriteLine("Não vou pedalar");
+
+}else{
+        Console.WriteLine("Vou pedalar");
+}
+*/
+
+ExemploCalculadora calculadora =  new ExemploCalculadora(0, 0, 0);
+
+calculadora.setValor1=10.00;
+calculadora.setValor2=5.00;
+
+calculadora.potencia();
+
+Console.WriteLine(calculadora.getResultado);
 
 
