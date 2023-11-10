@@ -137,8 +137,8 @@ if(!choveu && !estarTarde){
 
 ExemploCalculadora calculadora =  new ExemploCalculadora(0, 0, 0);
 
-calculadora.setValor1=10.00;
-calculadora.setValor2=5.00;
+calculadora.setValor1=3.00;
+calculadora.setValor2=3.00;
 
 calculadora.potencia();
 
