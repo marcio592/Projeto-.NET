@@ -192,6 +192,7 @@ Console.WriteLine($"Resultado da soma:{soma}");
 
 */
 
+/*
 int opcao;
 bool exibirMenu=true;
 
@@ -230,3 +231,24 @@ while(exibirMenu){
 
 Console.WriteLine("Programa encerrado");
 
+*/
+
+int[] arrayInteiros = new int[4];
+
+arrayInteiros[0] = 62;
+arrayInteiros[1] = 87;
+arrayInteiros[2] = 588;
+arrayInteiros[3] = 777;
+
+for(int cont=0; cont < arrayInteiros.Length; cont++){
+        Console.WriteLine($"Posição {cont} = {arrayInteiros[cont]}");
+}
+
+Console.WriteLine("Exemplo de foreach");
+int contadorForeach=0;
+
+foreach(int valor in arrayInteiros){
+         Console.WriteLine($"Posição {contadorForeach} = {valor}");
+         contadorForeach++;
+
+}
