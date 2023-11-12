@@ -135,6 +135,7 @@ if(!choveu && !estarTarde){
 }
 */
 
+/*
 ExemploCalculadora calculadora =  new ExemploCalculadora(0, 0, 0, 0);
 
 calculadora.setValor1=3.00;
@@ -151,6 +152,13 @@ calculadora.coseno();
 calculadora.tangente();
 calculadora.raizQuadrada();
 
+*/
+
+int numero = 5;
+
+for(int cont=0; cont <= 10; cont++){
+        Console.WriteLine($"{numero} x {cont} = {numero * cont}");
+}
 
 
 
