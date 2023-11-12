@@ -154,11 +154,79 @@ calculadora.raizQuadrada();
 
 */
 
+/*
 int numero = 5;
 
 for(int cont=0; cont <= 10; cont++){
         Console.WriteLine($"{numero} x {cont} = {numero * cont}");
 }
+*/
 
+/*
+int numero=5;
+int cont=0;
 
+while(cont <= 10){
+        Console.WriteLine($"{numero} * {cont} ={numero * cont}");
+        cont++;
+
+        if(cont == 6){
+                break;
+        }
+
+}
+
+*/
+
+/*
+int soma=0;
+int numero=0;
+
+do{
+        Console.WriteLine("Digite um número para somar(0 para parar!):");
+        numero = Convert.ToInt32(Console.ReadLine());
+        soma += numero;
+
+}while(numero != 0);
+Console.WriteLine($"Resultado da soma:{soma}");
+
+*/
+
+int opcao;
+bool exibirMenu=true;
+
+while(exibirMenu){
+        
+        Console.WriteLine("1 - Cadastrar cliente");
+        Console.WriteLine("2 - Consultar cliente");
+        Console.WriteLine("3 - Excluir cliente");
+        Console.WriteLine("4 - Encerrar");
+        Console.WriteLine("Digite a opção desejada:");
+
+        opcao = Convert.ToInt32(Console.ReadLine());
+
+        switch(opcao){
+                case 1:
+                Console.WriteLine("Cadastro de clientes");
+                break;
+                case 2:
+                Console.WriteLine("Consulta de clientes");
+                break;
+                case 3:
+                Console.WriteLine("Excluir cliente");
+                break;
+                case 4:
+                Console.WriteLine("Encerrar");
+                //Environment.Exit(0);
+                exibirMenu = false;
+                break;
+
+                default:
+                Console.WriteLine("Opção inválida");
+                break;
+
+        }
+}
+
+Console.WriteLine("Programa encerrado");
 
